@@ -1,0 +1,332 @@
+body {
+  background-color: #0f1923;
+  font-family: "DIN Next", Arial, sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav {
+  background-color: #ff4655;
+  border-radius: 100px;
+  font-weight: 900;
+  color: white;
+  border: none;
+  padding: 1em 2em;
+  margin: 5px;
+  font-size: 1.5em;
+  cursor: pointer;
+  text-decoration: none;
+}
+#listofagents {
+  cursor: default;
+  background-color: #ac000e;
+}
+
+.agents-btn:hover {
+  background-color: #ff7685;
+}
+#listofagents:hover {
+  background-color: #ad111e;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  font-size: 5em;
+}
+.img-agents {
+  width: 400px;
+  height: 500px;
+}
+#jett {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+#jett2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  height: 330px;
+  width: 300px;
+  font-size: 50px;
+  color: white;
+  background-color: #ff4655;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-bottom: 400px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+#jett3 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 65px;
+}
+#jett3:hover {
+  color: #ff4655;
+  font-size: 60px;
+  font-weight: 900;
+  transition: all 0.15s ease;
+}
+#jettult {
+  visibility: hidden;
+  position: absolute;
+  top: 308px;
+  left: 320px;
+  width: 300px;
+  background-color: rgb(0, 255, 255);
+  font-size: 18px;
+  color: #ff4655;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  transition: opacity 0.5s, transform 0.5s;
+  line-height: 1.5;
+}
+#jett3:hover + #jettult {
+  visibility: visible;
+  opacity: 0.9;
+  transform: translateX(20px);
+}
+#omen {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+#omen2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  height: 330px;
+  width: 330px;
+  font-size: 50px;
+  color: white;
+  background-color: #ff4655;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  margin-right: 100px;
+  margin-left: 50px;
+  margin-bottom: 400px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+#omen3 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 65px;
+}
+#omen3:hover {
+  color: #ff4655;
+  font-size: 60px;
+  font-weight: 900;
+  transition: all 0.15s ease;
+}
+#omenult {
+  visibility: hidden;
+  position: absolute;
+  top: 308px;
+  right: 320px;
+  width: 300px;
+  background-color: rgb(0, 255, 255);
+  font-size: 18px;
+  color: #ff4655;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  transition: opacity 0.5s, transform 0.5s;
+  line-height: 1.5;
+}
+#omen3:hover + #omenult {
+  visibility: visible;
+  opacity: 0.9;
+  transform: translateX(-40px);
+}
+#cypher {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+#cypher2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  height: 330px;
+  width: 330px;
+  font-size: 50px;
+  color: white;
+  background-color: #ff4655;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-bottom: 400px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+#cypher3 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 65px;
+}
+#cypher3:hover {
+  color: #ff4655;
+  font-size: 60px;
+  font-weight: 900;
+  transition: all 0.15s ease;
+}
+#cypherult {
+  visibility: hidden;
+  position: absolute;
+  top: 308px;
+  left: 320px;
+  width: 300px;
+  background-color: rgb(0, 255, 255);
+  font-size: 18px;
+  color: #ff4655;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  transition: opacity 0.5s, transform 0.5s;
+  line-height: 1.5;
+}
+#cypher3:hover + #cypherult {
+  visibility: visible;
+  opacity: 0.9;
+  transform: translateX(40px);
+}
+#breach {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+#breach2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  height: 330px;
+  width: 330px;
+  font-size: 50px;
+  color: white;
+  background-color: #ff4655;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  margin-right: 100px;
+  margin-left: 50px;
+  margin-bottom: 400px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+#breach3 {
+  text-decoration: underline;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 65px;
+}
+#breach3:hover {
+  color: #ff4655;
+  font-size: 60px;
+  font-weight: 900;
+  transition: all 0.15s ease;
+}
+#breachult {
+  visibility: hidden;
+  position: absolute;
+  top: 308px;
+  right: 320px;
+  width: 300px;
+  background-color: rgb(0, 255, 255);
+  font-size: 18px;
+  color: #ff4655;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  transition: opacity 0.5s, transform 0.5s;
+  line-height: 1.5;
+}
+#breach3:hover + #breachult {
+  visibility: visible;
+  opacity: 0.9;
+  transform: translateX(-40px);
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #0f1923;
+  color: #eaeaea;
+  padding: 20px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-links a,
+.footer-social a {
+  color: #eaeaea;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  text-decoration: underline;
+}
+
+.footer-social a {
+  margin: 0 5px;
+}
+
+.footer-copy {
+  margin-top: 10px;
+}
