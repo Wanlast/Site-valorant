@@ -15,99 +15,263 @@
         <div id="quizz" class="nav">Quizz</div>
       </div>
     </header>
-    <h1>Test your knowledge of the game !</h1>
-    <button id="startButton">Start</button>
+    <main>
+      <h1>Test your knowledge of the game !</h1>
+      <button id="startButton">Start</button>
 
-    <!-- Question 1 -->
+      <!-- Question 1 -->
 
-    <form class="fullquizz-container" id="fullquizz1">
-      <div class="question">
-        <h3>What is the role of Jett ?</h3>
-        <label class="label-radio-container">
+      <form class="fullquizz-container" id="fullquizz1">
+        <div class="question">
+          <h3>What is the role of Jett ?</h3>
           <div class="radio-container">
-            <input type="radio" name="q1" value="option1" />Controler
-          </div> </label
-        ><br />
-        <label class="label-radio-container">
-          <div class="radio-container">
-            <input type="radio" name="q1" value="option2" />Initiator
-          </div> </label
-        ><br />
-        <label class="label-radio-container">
-          <div class="radio-container">
-            <input type="radio" name="q1" value="option3" />Sentinel
-          </div> </label
-        ><br />
-        <label class="label-radio-container">
-          <div class="radio-container">
-            <input type="radio" name="q1" value="option4" />Duelist
+            <label>
+              <input
+                class="wAnswer"
+                type="radio"
+                name="q1"
+                value="option1"
+              />Controller
+            </label>
           </div>
-        </label>
-      </div>
-      <button type="submit">Confirmer</button>
-    </form>
+          <div class="radio-container">
+            <label>
+              <input
+                class="wAnswer"
+                type="radio"
+                name="q1"
+                value="option2"
+              />Initiator
+            </label>
+          </div>
+          <div class="radio-container">
+            <label>
+              <input
+                class="wAnswer"
+                type="radio"
+                name="q1"
+                value="option3"
+              />Sentinel
+            </label>
+          </div>
+          <div class="radio-container">
+            <label>
+              <input
+                class="rAnswer"
+                type="radio"
+                name="q1"
+                value="option4"
+              />Duelist
+            </label>
+          </div>
+        </div>
 
-    <!-- Question 2 -->
+        <!-- Rectangles pour afficher la bonne ou mauvaise réponse -->
 
-    <form class="fullquizz-container" id="fullquizz2">
-      <div class="question">
-        <h3>Question 2</h3>
-        <label>
-          <input type="radio" name="q2" value="option1" /> Option 1 </label
-        ><br />
-        <label>
-          <input type="radio" name="q2" value="option2" /> Option 2 </label
-        ><br />
-        <label>
-          <input type="radio" name="q2" value="option3" /> Option 3 </label
-        ><br />
-        <label>
-          <input type="radio" name="q2" value="option4" /> Option 4
-        </label>
-      </div>
-      <button type="submit">Confirmer</button>
-    </form>
+        <button id="confirmButton1" class="buttonQuizz" type="button">
+          Confirm
+        </button>
+        <div id="wrongAnswer1" class="wrong-answer">
+          Wrong Answer, try again !
+        </div>
+        <div id="correctAnswer1" class="correct-answer">Good Answer !</div>
+        <button id="nextButton1" class="buttonQuizz" type="button">
+          Next Question
+        </button>
+      </form>
 
-    <!-- Question 3 -->
+      <!-- Question 2 -->
 
-    <form class="fullquizz-container" id="fullquizz3">
-      <div class="question">
-        <h3>Question 3</h3>
-        <label>
-          <input type="radio" name="q3" value="option1" /> Option 1 </label
-        ><br />
-        <label>
-          <input type="radio" name="q3" value="option2" /> Option 2 </label
-        ><br />
-        <label>
-          <input type="radio" name="q3" value="option3" /> Option 3 </label
-        ><br />
-        <label>
-          <input type="radio" name="q3" value="option4" /> Option 4
-        </label>
-      </div>
-      <button type="submit">Confirmer</button>
-    </form>
+      <form class="fullquizz-container" id="fullquizz2">
+        <div class="question">
+          <h3>What is the role of Breach ?</h3>
+          <div class="radio-container">
+            <label>
+              <input
+                class="wAnswer"
+                type="radio"
+                name="q2"
+                value="option1"
+              />Controller
+            </label>
+          </div>
+          <div class="radio-container">
+            <label>
+              <input
+                class="rAnswer"
+                type="radio"
+                name="q2"
+                value="option2"
+              />Initiator
+            </label>
+          </div>
+          <div class="radio-container">
+            <label>
+              <input
+                class="wAnswer"
+                type="radio"
+                name="q2"
+                value="option3"
+              />Sentinel
+            </label>
+          </div>
+          <div class="radio-container">
+            <label>
+              <input
+                class="wAnswer"
+                type="radio"
+                name="q2"
+                value="option4"
+              />Duelist
+            </label>
+          </div>
+        </div>
 
-    <!-- Question 4 -->
-    <form class="fullquizz-container" id="fullquizz4">
-      <div class="question">
-        <h3>Question 4</h3>
-        <label>
-          <input type="radio" name="q4" value="option1" /> Option 1 </label
-        ><br />
-        <label>
-          <input type="radio" name="q4" value="option2" /> Option 2 </label
-        ><br />
-        <label>
-          <input type="radio" name="q4" value="option3" /> Option 3 </label
-        ><br />
-        <label>
-          <input type="radio" name="q4" value="option4" /> Option 4
-        </label>
-      </div>
-      <button type="submit">Confirmer</button>
-    </form>
+        <!-- Rectangles pour afficher la bonne ou mauvaise réponse -->
+
+        <button id="confirmButton2" class="buttonQuizz" type="button">
+          Confirm
+        </button>
+        <div id="wrongAnswer2" class="wrong-answer">
+          Wrong Answer, try again !
+        </div>
+        <div id="correctAnswer2" class="correct-answer">Good Answer !</div>
+        <button id="nextButton2" class="buttonQuizz" type="button">
+          Next Question
+        </button>
+      </form>
+
+      <!-- Question 3 -->
+
+      <form class="fullquizz-container" id="fullquizz3">
+        <div class="question">
+          <h3>
+            What character can teleport wherever he wants on the map with his
+            ultimate ?
+          </h3>
+          <div class="radio-container">
+            <label>
+              <input
+                class="rAnswer"
+                type="radio"
+                name="q3"
+                value="option1"
+              />Omen
+            </label>
+          </div>
+          <div class="radio-container">
+            <label>
+              <input
+                class="wAnswer"
+                type="radio"
+                name="q3"
+                value="option2"
+              />Breach
+            </label>
+          </div>
+          <div class="radio-container">
+            <label>
+              <input
+                class="wAnswer"
+                type="radio"
+                name="q3"
+                value="option3"
+              />Cypher
+            </label>
+          </div>
+          <div class="radio-container">
+            <label>
+              <input
+                class="wAnswer"
+                type="radio"
+                name="q3"
+                value="option4"
+              />Jett
+            </label>
+          </div>
+        </div>
+
+        <!-- Rectangles pour afficher la bonne ou mauvaise réponse -->
+
+        <button id="confirmButton3" class="buttonQuizz" type="button">
+          Confirm
+        </button>
+        <div id="wrongAnswer3" class="wrong-answer">
+          Wrong Answer, try again !
+        </div>
+        <div id="correctAnswer3" class="correct-answer">Good Answer !</div>
+        <button id="nextButton3" class="buttonQuizz" type="button">
+          Next Question
+        </button>
+      </form>
+
+      <!-- Question 4 -->
+
+      <form class="fullquizz-container" id="fullquizz4">
+        <div class="question">
+          <h3>
+            What character can reveal the location of every living enemy players
+            with his ultimate ?
+          </h3>
+          <div class="radio-container">
+            <label>
+              <input
+                class="wAnswer"
+                type="radio"
+                name="q4"
+                value="option1"
+              />Omen
+            </label>
+          </div>
+          <div class="radio-container">
+            <label>
+              <input
+                class="wAnswer"
+                type="radio"
+                name="q4"
+                value="option2"
+              />Breach
+            </label>
+          </div>
+          <div class="radio-container">
+            <label>
+              <input
+                class="rAnswer"
+                type="radio"
+                name="q4"
+                value="option3"
+              />Cypher
+            </label>
+          </div>
+          <div class="radio-container">
+            <label>
+              <input
+                class="wAnswer"
+                type="radio"
+                name="q4"
+                value="option4"
+              />Jett
+            </label>
+          </div>
+        </div>
+
+        <!-- Rectangles pour afficher la bonne ou mauvaise réponse -->
+
+        <button id="confirmButton4" class="buttonQuizz" type="button">
+          Confirm
+        </button>
+        <div id="wrongAnswer4" class="wrong-answer">
+          Wrong Answer, try again !
+        </div>
+        <div id="correctAnswer4" class="correct-answer">Good Answer !</div>
+        <button id="nextButton4" class="buttonQuizz" type="button">
+          Go back home page
+        </button>
+        <span id="congrats">Congratulations, you finished the Quizz !</span>
+      </form>
+    </main>
+
+    <!-- FOOTER -->
 
     <footer>
       <div class="footer-container">
@@ -132,7 +296,9 @@
           >
         </div>
         <div class="footer-copy">
-          <p>&copy; 2024 Riot Games, Inc. All Rights Reserved.</p>
+          <p id="riotgames">
+            &copy; 2024 Riot Games, Inc. All Rights Reserved.
+          </p>
         </div>
       </div>
     </footer>
