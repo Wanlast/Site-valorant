@@ -7,7 +7,7 @@ body {
   padding: 0;
 }
 
-/* Bande d'en-tête avec vidéo en fond */
+/* Bande avec vidéo en fond */
 header {
   position: relative;
   width: 100%;
@@ -71,6 +71,11 @@ h1 {
   font-family: "Bebas Neue", sans-serif;
   color: #121212;
   margin-bottom: 0.5em;
+}
+@media (max-width: 700px) {
+  h1 {
+    font-size: 80px;
+  }
 }
 
 .home-btn-container {
